@@ -9,10 +9,10 @@ public class LinkedStackOfItems<T> implements Iterable<T> {
 	
 	public Iterator<T> iterator() { 
 		return new ListIterator();
-	};
+	}
 	
 	private class ListIterator implements Iterator<T>{
-		private Node current  = first;
+		private Node<T> current  = first;
 		public boolean hasNext() {
 			return current != null;
 		}
