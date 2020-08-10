@@ -1,3 +1,4 @@
+package assignments.deque;
 
 import edu.princeton.cs.algs4.StdIn;
 
